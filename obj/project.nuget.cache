@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zssG4CQG/ZEfXQcnMgbALh1YIzeXg6zwBQcSmAYLOziqz/lXvzwhG7itQP4f30xBZbIVsiXbYyOOS2aDFWrxbg==",
+  "success": true,
+  "projectFilePath": "/home/user/code/BlazorApp/BlazorApp.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/skiasharp/2.80.3/skiasharp.2.80.3.nupkg.sha512",
+    "/home/user/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

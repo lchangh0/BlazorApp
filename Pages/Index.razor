@@ -1,0 +1,18 @@
+@page "/"
+
+@inject TestService TS
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+<button class="btn btn-primary" @onclick="OnClickTest">Test</button>
+
+@code {
+    void OnClickTest()
+    {
+        TS.Func1();
+
+    }
+}
