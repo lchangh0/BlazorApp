@@ -16,7 +16,9 @@ namespace BlazorApp.Services
                 {
                     using(SKPaint paint = new SKPaint())
                     {
-                        paint.Color = SKColors.White;
+                        //paint.Color = SKColors.White;
+                        paint.Color = new SKColor(0x11, 0x22, 0x33);
+
                         canv.DrawRect(0, 0, bitmap.Width, bitmap.Height, paint);
                     }
                 }
@@ -37,25 +39,25 @@ namespace BlazorApp.Services
                         for(int x = 0; x < bitmap.Width; x++)
                         {
                             int iOffset = y * iRowBytes + x * iBytesPerPixel;
-                            byte b1 = ptr[iOffset];
-                            byte b2 = ptr[iOffset+1];
-                            byte b3 = ptr[iOffset+2];
-                            byte b4 = ptr[iOffset+3];
+                            byte b1 = ptr[iOffset];     // blue
+                            byte b2 = ptr[iOffset+1];   // green
+                            byte b3 = ptr[iOffset+2];   // red
+                            byte b4 = ptr[iOffset+3];   // alpha
 
                             Console.Write($"{b1:X2}{b2:X2}{b3:X2}{b4:X2} ");
                         }
                         Console.WriteLine("");
                     }
-
                 }
 
                 /// Save to File
 
-                string strFilePath = Path.Combine("home", "user", "a.jpg");
+                string strFilePath = Path.Combine("/home/user", "a.png");
                 using(SKFileWStream fs = new SKFileWStream(strFilePath))
                 {
-                    bitmap.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+                    bitmap.Encode(fs, SKEncodedImageFormat.Png, 100);
                 }
+
             }
 
         }
