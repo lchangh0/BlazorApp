@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/code/BlazorApp/BlazorApp.csproj": {}
+    "C:\\Users\\user\\source\\repos\\BlazorApp\\BlazorApp.csproj": {}
   },
   "projects": {
-    "/home/user/code/BlazorApp/BlazorApp.csproj": {
+    "C:\\Users\\user\\source\\repos\\BlazorApp\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/code/BlazorApp/BlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\BlazorApp\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "/home/user/code/BlazorApp/BlazorApp.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/code/BlazorApp/obj/",
+        "projectPath": "C:\\Users\\user\\source\\repos\\BlazorApp\\BlazorApp.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
